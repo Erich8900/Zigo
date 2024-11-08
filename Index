@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Physiotherapie Praxis</title>
+  <title>Physiotherapie Praxis Farbenfroh</title>
   <style>
     * {
       margin: 0;
@@ -13,126 +13,131 @@
     }
 
     body {
-      background-color: #f9f9f9;
+      background: #F9F3C6; /* Sanfter gelber Hintergrund */
       color: #333;
     }
 
     /* Header */
     header {
-      background-image: url('https://example.com/header-image.jpg');
-      background-size: cover;
-      height: 100vh;
-      display: flex;
-      justify-content: center;
-      align-items: center;
+      background: linear-gradient(135deg, #FF6B6B, #FFD93D);
+      padding: 40px 20px;
       text-align: center;
       color: white;
     }
 
     header h1 {
-      font-size: 3rem;
+      font-size: 2.5rem;
       margin-bottom: 10px;
     }
 
     header p {
-      font-size: 1.5rem;
+      font-size: 1.2rem;
     }
 
     /* Navigation */
     nav {
-      background-color: #007BFF;
-      display: flex;
-      justify-content: center;
-      padding: 10px;
+      background: #4BC6B9;
+      padding: 15px;
+      text-align: center;
     }
 
     nav a {
       color: white;
       text-decoration: none;
-      padding: 15px 20px;
-      text-align: center;
-      transition: background-color 0.3s;
+      padding: 10px 20px;
+      display: inline-block;
+      margin: 0 5px;
+      transition: transform 0.3s ease;
     }
 
     nav a:hover {
-      background-color: #0056b3;
+      transform: scale(1.1);
+      background: #FFC93C;
+      color: #4BC6B9;
+      border-radius: 5px;
     }
 
     /* Über uns Section */
     #about {
+      background: #FFC93C; /* Gelb */
       padding: 60px 20px;
       text-align: center;
     }
 
-    #about img {
-      width: 300px;
-      height: 300px;
-      border-radius: 50%;
+    #about h2 {
+      color: #FF6B6B;
       margin-bottom: 20px;
+    }
+
+    #about p {
+      max-width: 700px;
+      margin: auto;
     }
 
     /* Dienstleistungen */
     #services {
-      display: flex;
-      justify-content: center;
-      flex-wrap: wrap;
+      background: #FF6B6B;
+      color: white;
       padding: 60px 20px;
+      text-align: center;
+    }
+
+    #services h2 {
+      margin-bottom: 20px;
     }
 
     .service-item {
-      background-color: #fff;
+      background: white;
+      color: #FF6B6B;
       border-radius: 10px;
-      width: 300px;
-      margin: 20px;
-      text-align: center;
-      padding: 30px;
-      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-      transition: transform 0.3s ease;
+      padding: 20px;
+      width: 80%;
+      max-width: 300px;
+      margin: 20px auto;
+      box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+      transition: background 0.3s;
     }
 
     .service-item:hover {
-      transform: scale(1.05);
-    }
-
-    .service-item img {
-      width: 100%;
-      height: 200px;
-      object-fit: cover;
-      border-radius: 10px;
-      margin-bottom: 15px;
+      background: #FFD93D;
+      color: #4BC6B9;
     }
 
     /* Kontaktformular */
     #contact {
-      background-color: #f2f2f2;
+      background: #4BC6B9;
+      color: white;
       padding: 60px 20px;
       text-align: center;
     }
 
     .contact-form input, .contact-form textarea {
-      width: 100%;
-      padding: 12px;
+      width: 80%;
+      max-width: 500px;
+      padding: 10px;
       margin: 10px 0;
       border-radius: 5px;
-      border: 1px solid #ddd;
+      border: none;
     }
 
     .contact-form button {
-      background-color: #007BFF;
+      background: #FF6B6B;
       color: white;
       padding: 12px 20px;
       border: none;
       border-radius: 5px;
       cursor: pointer;
+      transition: background 0.3s;
     }
 
     .contact-form button:hover {
-      background-color: #0056b3;
+      background: #FFD93D;
+      color: #4BC6B9;
     }
 
     /* Footer */
     footer {
-      background-color: #333;
+      background: #333;
       color: white;
       padding: 20px;
       text-align: center;
@@ -143,10 +148,8 @@
 
   <!-- Header Section -->
   <header>
-    <div>
-      <h1>Willkommen bei Ihrer Physiotherapie Praxis</h1>
-      <p>Gesundheit und Wohlbefinden beginnen hier</p>
-    </div>
+    <h1>Physiotherapie Farbenfroh</h1>
+    <p>Lebensqualität und Mobilität durch Farben und Therapie</p>
   </header>
 
   <!-- Navigation -->
@@ -159,34 +162,30 @@
   <!-- Über uns Section -->
   <section id="about">
     <h2>Über uns</h2>
-    <img src="https://example.com/team.jpg" alt="Unser Team">
-    <p>Unsere Physiotherapie-Praxis hilft Ihnen, Ihre Beweglichkeit zu steigern und Ihre Lebensqualität zu verbessern. Mit modernen Methoden und einem erfahrenen Team bieten wir Ihnen individuelle Behandlungen.</p>
+    <p>Wir sind eine bunte und moderne Physiotherapie-Praxis, die sich auf eine individuelle und ganzheitliche Betreuung spezialisiert hat. Unsere Therapeuten arbeiten in freundlicher und entspannter Atmosphäre.</p>
   </section>
 
   <!-- Dienstleistungen Section -->
   <section id="services">
     <h2>Unsere Dienstleistungen</h2>
     <div class="service-item">
-      <img src="https://example.com/physio.jpg" alt="Physiotherapie">
       <h3>Physiotherapie</h3>
-      <p>Wir bieten umfassende Behandlungen, um Ihre Beweglichkeit zu verbessern und Schmerzen zu lindern.</p>
+      <p>Behandlung zur Verbesserung der Beweglichkeit und Schmerzreduktion.</p>
     </div>
     <div class="service-item">
-      <img src="https://example.com/sports.jpg" alt="Sporttherapie">
-      <h3>Sporttherapie</h3>
-      <p>Behandlungen zur Rehabilitation nach sportlichen Verletzungen und zur Verbesserung der Leistungsfähigkeit.</p>
-    </div>
-    <div class="service-item">
-      <img src="https://example.com/massage.jpg" alt="Massage">
       <h3>Massage</h3>
-      <p>Therapeutische Massagen zur Entspannung und Schmerzlinderung bei Muskelverspannungen.</p>
+      <p>Entspannende Massagen zur Linderung von Muskelverspannungen.</p>
+    </div>
+    <div class="service-item">
+      <h3>Sporttherapie</h3>
+      <p>Therapie für Sportverletzungen und Leistungssteigerung.</p>
     </div>
   </section>
 
   <!-- Kontakt Section -->
   <section id="contact">
     <h2>Kontaktieren Sie uns</h2>
-    <p>Haben Sie Fragen oder möchten Sie einen Termin vereinbaren? Füllen Sie das Kontaktformular aus.</p>
+    <p>Haben Sie Fragen? Schreiben Sie uns!</p>
     <div class="contact-form">
       <form action="#">
         <input type="text" name="name" placeholder="Ihr Name" required>
@@ -199,7 +198,7 @@
 
   <!-- Footer -->
   <footer>
-    <p>&copy; 2024 Physiotherapie Praxis. Alle Rechte vorbehalten.</p>
+    <p>&copy; 2024 Physiotherapie Farbenfroh. Alle Rechte vorbehalten.</p>
   </footer>
 
 </body>
